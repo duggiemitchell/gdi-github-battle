@@ -13,7 +13,7 @@ function RepoGrid(props) {
                 <img
                   className="avatar"
                   src={repo.owner.avatar_url}
-                  alt={"Avatar or ${repo.owner.login}"}
+                  alt={`Avatar or ${repo.owner.login}`}
                 />
               </li>
               <li>
